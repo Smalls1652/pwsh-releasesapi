@@ -1,11 +1,11 @@
 # PowerShell Core Releases API Caller
 
-This script collects data from the GitHub api for the PowerShell repository and returns the data to the console. This a very rough work-in-progress, but it generates `ReleaseAssets` for Windows, macOS, and generic Linux assets for each release.
+This module collects data from the GitHub api for the PowerShell repository and returns the data to the console. This a very rough work-in-progress, but it generates `ReleaseAssets` for Windows, macOS, and generic Linux assets for each release.
 
 ## Usage
 
 ```powershell
-PS /> .\Get-PwshRelease.ps1
+PS /> Get-PwshReleases
 
 Name           : v7.0.0-rc.2 Release of PowerShell
 VersionTag     : v7.0.0-rc.2
