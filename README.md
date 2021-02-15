@@ -1,5 +1,7 @@
 # PowerShell Core Releases API Caller
 
+## ❗ This repo has been archived and replaced with a new project: [Smalls1652/pwsh-getnewreleases](https://github.com/Smalls1652/pwsh-getnewreleases)
+
 This script collects data from the GitHub api for the PowerShell repository and returns the data to the console. This a very rough work-in-progress, but it generates `ReleaseAssets` for Windows, macOS, and generic Linux assets for each release.
 
 ## Usage
